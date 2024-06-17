@@ -1,0 +1,50 @@
+.content-beer {
+  justify-content: center;
+  padding: 40px;
+}
+
+.content-beer-text {
+  @include text-normal;
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.content-beer-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.content-beer-vertical {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 4px;
+  padding-left: 110px;
+  padding-bottom: 130px;
+}
+
+.content-beer-vertical h3 {
+  transform: rotate(-90deg);
+  margin-left: -125px;
+}
+
+.content-beer-text-vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  align-self: stretch;
+  margin-top: -125px;
+}
+
+.content-beer .content-beer-text p {
+  @include text-uppercase;
+  margin-bottom: 1px;
+}
+
+.content-beer-reverse {
+  align-items: flex-end;
+}
