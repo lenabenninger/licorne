@@ -1,52 +1,81 @@
-.box-square {
+.box-square,
+.box-wide,
+.box-long {
   position: absolute;
-  width: 25%;
-  height: 33%;
   box-sizing: border-box;
+  display: flex;
+  padding: 15px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.box-img {
+  padding: 0;
+}
+
+.box-square {
+  width: 25%;
+  height: 33.33%;
 }
 
 .box-wide {
-  position: absolute;
   width: 50%;
-  box-sizing: border-box;
+  height: 33.33%;
 }
 
 .box-long {
-  position: absolute;
   width: 25%;
+  height: 66.66%;
+}
+
+.box-histoire {
+  color: $darkgreen;
+  background: $yellow;
   height: 100%;
-  overflow: hidden;
+}
+
+.box-histoire h2 {
+  padding: 15px 20px;
+}
+
+.box-histoire img {
+  margin-top: -140px;
 }
 
 .box-estavayer {
   margin-left: 25%;
+  color: $orange;
+  background: $lightgreen;
 }
 
 .box-hops {
-  background: #ea6231;
+  background: $orange;
   margin-left: 50%;
 }
 
 .box-water {
-  background: #3a5b6d;
+  background: $blue;
   margin-left: 25%;
   margin-top: 25%;
 }
 
 .box-yeast {
-  background: #376938;
-  height: 66.66%;
+  background: $darkgreen;
   margin-left: 75%;
   margin-top: 25%;
 }
 
 .box-belgique {
-  background: #e5ac49;
+  color: $blue;
+  background: $yellow;
   margin-left: 50%;
   margin-top: 25%;
 }
 
 .box-canada {
+  color: $darkgreen;
+  background: $pink;
   margin-left: 25%;
   margin-top: 50%;
 }
