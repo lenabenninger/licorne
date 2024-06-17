@@ -1,0 +1,52 @@
+.box-square {
+  position: absolute;
+  width: 25%;
+  height: 33%;
+  box-sizing: border-box;
+}
+
+.box-wide {
+  position: absolute;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.box-long {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.box-estavayer {
+  margin-left: 25%;
+}
+
+.box-hops {
+  background: #ea6231;
+  margin-left: 50%;
+}
+
+.box-water {
+  background: #3a5b6d;
+  margin-left: 25%;
+  margin-top: 25%;
+}
+
+.box-yeast {
+  background: #376938;
+  height: 66.66%;
+  margin-left: 75%;
+  margin-top: 25%;
+}
+
+.box-belgique {
+  background: #e5ac49;
+  margin-left: 50%;
+  margin-top: 25%;
+}
+
+.box-canada {
+  margin-left: 25%;
+  margin-top: 50%;
+}
