@@ -1,0 +1,10 @@
+.button {
+  @include text-uppercase;
+  display: flex;
+  height: 53px;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  color: $pink;
+  background: $blue;
+}

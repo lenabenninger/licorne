@@ -10,23 +10,45 @@
   gap: 5px;
 }
 
+.box-button {
+  padding: 15px 30px 20px 20px;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
 .box-img {
   padding: 0;
 }
 
+.box-img h2 {
+  padding: 15px 20px 0;
+}
+
 .box-square {
   width: 25%;
-  height: 33.33%;
+  height: 33.34%;
+}
+
+.l-section-small .box-square {
+  height: 50%;
+}
+
+.l-section-small .box-long {
+  height: 100%;
+}
+
+.l-section-small .box-wide {
+  height: 50%;
 }
 
 .box-wide {
   width: 50%;
-  height: 33.33%;
+  height: 33.34%;
 }
 
 .box-long {
   width: 25%;
-  height: 66.66%;
+  height: 66.67%;
 }
 
 .box-histoire {
@@ -35,18 +57,10 @@
   height: 100%;
 }
 
-.box-histoire h2 {
-  padding: 15px 20px;
-}
-
-.box-histoire img {
-  margin-top: -140px;
-}
-
 .box-estavayer {
-  margin-left: 25%;
   color: $orange;
   background: $lightgreen;
+  margin-left: 25%;
 }
 
 .box-hops {
@@ -56,26 +70,68 @@
 
 .box-water {
   background: $blue;
-  margin-left: 25%;
-  margin-top: 25%;
+  margin: 25% 0 0 25%;
 }
 
 .box-yeast {
   background: $darkgreen;
-  margin-left: 75%;
-  margin-top: 25%;
+  margin: 25% 0 0 75%;
 }
 
 .box-belgique {
   color: $blue;
   background: $yellow;
-  margin-left: 50%;
-  margin-top: 25%;
+  margin: 25% 0 0 50%;
 }
 
 .box-canada {
   color: $darkgreen;
   background: $pink;
-  margin-left: 25%;
+  margin: 50% 0 0 25%;
+}
+
+.box-brasserie {
+  color: $lightgreen;
+  background: $orange;
+}
+
+.box-brasserie p {
+  @include text-uppercase;
+}
+
+.box-brasserie-estavayer {
+  margin-left: 50%;
+}
+
+.box-admin {
+  color: $darkgreen;
+  background: $yellow;
+  margin-top: 25%;
+}
+
+.box-prod {
+  color: $orange;
+  background: $pink;
+  margin: 25% 0 0 25%;
+}
+
+.box-stock {
+  color: $blue;
+  background: $lightgreen;
+  margin: 25% 0 0 50%;
+}
+
+.box-barrel {
+  background: $darkgreen;
   margin-top: 50%;
+}
+
+.box-tasting {
+  color: $pink;
+  background: $orange;
+  margin: 50% 0 0 50%;
+}
+
+.box-tasting h3 {
+  margin-bottom: 5px;
 }

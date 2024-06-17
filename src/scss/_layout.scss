@@ -1,8 +1,13 @@
-.l-histoire {
+.l-section {
   position: relative;
   display: flex;
   flex-wrap: wrap;
   width: 100vw;
   height: calc(75vw);
   overflow: hidden;
+  margin-bottom: calc(25vw);
+}
+
+.l-section-small {
+  height: calc(50vw);
 }
