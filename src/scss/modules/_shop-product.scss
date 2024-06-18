@@ -1,0 +1,46 @@
+.shop-product-prizes div {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  align-self: stretch;
+}
+
+.shop-product-desription {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  align-self: stretch;
+}
+
+.shop-product-order {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  align-self: stretch;
+}
+
+.shop-product-order img {
+  background: $blue;
+  padding: 10px;
+}
+
+.shop-product strong {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 33px;
+}
+
+.shop-product-quantity {
+  @include text-small;
+}
+
+.box-newsletter-bottle {
+  background: $blue;
+}
+
+.box-newsletter {
+  color: $orange;
+  @include text-uppercase;
+  margin-left: 25%;
+  width: 75%;
+}

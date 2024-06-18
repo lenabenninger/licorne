@@ -15,6 +15,11 @@
   line-height: 22px;
 }
 
+@mixin text-small {
+  font-size: 15px;
+  line-height: 25px;
+}
+
 $lightgreen: #d9e587;
 $darkgreen: #376938;
 $blue: #3a5b6d;
@@ -64,6 +69,7 @@ h2 {
   font-weight: 400;
   font-size: 52px;
   line-height: 52.4px;
+  margin-bottom: 5px;
 }
 
 h3 {
@@ -72,6 +78,7 @@ h3 {
   font-weight: 400;
   line-height: 33.8px;
   letter-spacing: 1.11px;
+  margin-bottom: 5px;
 }
 
 p {

@@ -7,7 +7,7 @@
   padding: 15px 20px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 5px;
+  // gap: 5px;
 }
 
 .box-button {
@@ -29,7 +29,8 @@
   height: 33.34%;
 }
 
-.l-section-small .box-square {
+.l-section-small .box-square,
+.l-section-small .box-wide {
   height: 50%;
 }
 
@@ -37,8 +38,9 @@
   height: 100%;
 }
 
-.l-section-small .box-wide {
-  height: 50%;
+.l-section-smaller .box-square,
+.l-section-smaller .box-wide {
+  height: 100%;
 }
 
 .box-wide {
@@ -55,6 +57,8 @@
   color: $darkgreen;
   background: $yellow;
   height: 100%;
+  background-image: url(../images/malt.png);
+  background-size: 100%;
 }
 
 .box-estavayer {
@@ -140,6 +144,8 @@
   color: $lightgreen;
   background: $blue;
   margin-left: 50%;
+  background-image: url(../images/beer-glass.png);
+  background-size: 100%;
 }
 
 .box-beers img {
@@ -172,4 +178,29 @@
 .box-beer-glass {
   margin-top: 25%;
   background: $blue;
+}
+
+.box-shop-blond {
+  color: $orange;
+  background: $lightgreen;
+}
+
+.box-shop-dark {
+  color: $darkgreen;
+  background: $pink;
+  margin-left: 25%;
+}
+
+.box-shop-ipa {
+  color: $blue;
+  background: $yellow;
+  margin-left: 50%;
+}
+
+.box-shop {
+  color: $lightgreen;
+  background: $darkgreen;
+  margin-left: 75%;
+  background-image: url(../images/bottle-lightgreen.png);
+  background-size: 100%;
 }
