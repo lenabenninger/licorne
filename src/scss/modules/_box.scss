@@ -59,6 +59,60 @@
   padding: 73px;
 }
 
+.box-after-header-left {
+  background: $pink;
+}
+
+.box-after-header-right {
+  background: $blue;
+  margin-left: 50%;
+}
+
+.box-after-histoire-left {
+  background: $lightgreen;
+  width: 50%;
+}
+
+.box-after-histoire-right {
+  margin-left: 50%;
+  background: $yellow;
+}
+
+.box-after-brasserie-left {
+  background: $pink;
+  width: 75%;
+}
+
+.box-after-brasserie-right {
+  background: $lightgreen;
+  margin-left: 75%;
+}
+
+.box-after-bieres-left {
+  background: $yellow;
+  width: 25%;
+}
+
+.box-after-bieres-right {
+  background: $orange;
+  margin-left: 25%;
+  width: 75%;
+}
+
+.box-after-shop-left {
+  background: $yellow;
+}
+
+.box-after-shop-right {
+  margin-left: 50%;
+  background: $pink;
+}
+
+.box-nav {
+  margin-left: 75%;
+  background: $orange;
+}
+
 .box-histoire {
   color: $darkgreen;
   background: $yellow;
@@ -218,6 +272,11 @@
 }
 
 .box-newsletter {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: stretch;
+  gap: 25px;
   color: $orange;
   background: $lightgreen;
   @include text-uppercase;

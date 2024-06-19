@@ -1,0 +1,15 @@
+.radio-language {
+  display: flex;
+  gap: 11px;
+  @include text-uppercase;
+  color: $blue;
+  margin-bottom: 12px;
+}
+
+.radio-language input {
+  display: none;
+}
+
+.radio-language input:checked + label {
+  text-decoration: underline 1px;
+}

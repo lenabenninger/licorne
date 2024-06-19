@@ -3,7 +3,6 @@
   height: 53px;
   padding: 10px;
   border: none;
-  align-self: stretch;
   width: 100%;
 }
 
@@ -12,15 +11,16 @@
 }
 
 .input-text {
-  align-self: stretch;
+  width: auto;
+  width: 100%;
 }
 
 .input-text ::placeholder {
   @include text-uppercase;
+  color: $blue;
 }
 
 .email {
   display: flex;
   gap: 25px;
-  width: 500px;
 }
