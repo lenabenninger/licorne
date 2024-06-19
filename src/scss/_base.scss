@@ -3,6 +3,7 @@
 // ==================================== */
 
 @mixin text-uppercase {
+  font-family: "Manrope", sans-serif;
   font-size: 17px;
   line-height: 21px;
   text-transform: uppercase;
@@ -16,6 +17,7 @@
 }
 
 @mixin text-small {
+  font-family: "Manrope", sans-serif;
   font-size: 15px;
   line-height: 25px;
 }
@@ -40,6 +42,7 @@ $beige: #ffeba3;
 
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -87,6 +90,19 @@ p {
 
 ul {
   list-style-type: none;
+}
+
+nav {
+  @include text-uppercase;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: $lightgreen;
+}
+
+nav a {
+  text-decoration: none;
 }
 
 /* ====================================

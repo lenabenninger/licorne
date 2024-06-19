@@ -13,16 +13,18 @@
 .an-header-licorne-lightgreen-top {
   animation-duration: 9s;
   animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
 }
 
 .an-header-mask {
   width: 100%;
   height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .an-header-bottle-orange,
-.an-header-bottle-top,
-.an-header-licorne-pink {
+.an-header-bottle-top {
   overflow: hidden;
 }
 
@@ -73,12 +75,20 @@
     margin: 25% 0 0 25%;
   }
 
-  60% {
+  33% {
     margin: 25% 0 0 25%;
   }
 
-  61% {
-    margin: -50% 0 0 25%;
+  60% {
+    margin: 0 0 0 -25%;
+  }
+
+  88% {
+    margin: 0 0 0 -25%;
+  }
+
+  99% {
+    margin: 0 0 0 25%;
   }
 
   100% {
@@ -197,6 +207,10 @@
     margin: 0 0 0 25%;
   }
 
+  90% {
+    margin: -25% 0 0 25%;
+  }
+
   100% {
     margin: -25% 0 0 25%;
   }
@@ -204,7 +218,7 @@
 
 .an-header-glass {
   animation-name: posGlass;
-  background: $pink;
+  background: $yellow;
 }
 
 @keyframes posGlass {
@@ -218,6 +232,10 @@
 
   80% {
     margin: 0 0 0 50%;
+  }
+
+  90% {
+    margin: -25% 0 0 50%;
   }
 
   100% {
@@ -350,5 +368,70 @@
 
   100% {
     margin: 50% 0 0 25%;
+  }
+}
+
+.an-header-licorne-pink {
+  animation-name: posLicornePink;
+  background: $darkgreen;
+}
+
+@keyframes posLicornePink {
+  0% {
+    margin: -25% 0 0 25%;
+  }
+
+  55% {
+    margin: -25% 0 0 25%;
+  }
+
+  66% {
+    margin: 0 0 0 25%;
+  }
+
+  88% {
+    margin: 0 0 0 25%;
+  }
+
+  99% {
+    margin: 0 0 0 75%;
+  }
+
+  100% {
+    margin: -25% 0 0 75%;
+  }
+}
+
+.an-header-licorne-lightgreen-top {
+  animation-name: posLicorneTop;
+  background: $orange;
+}
+
+@keyframes posLicorneTop {
+  0% {
+    margin: 25% 0 0 -50%;
+    opacity: 0;
+  }
+
+  77% {
+    margin: 25% 0 0 -50%;
+    opacity: 1;
+  }
+
+  88% {
+    margin: 25% 0 0 0;
+  }
+
+  95% {
+    margin: 25% 0 0 0;
+    opacity: 1;
+  }
+
+  99% {
+    margin: 25% 0 0 0;
+  }
+
+  100% {
+    margin: 25% 0 0 0;
   }
 }

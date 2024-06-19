@@ -21,14 +21,14 @@
             <img src="images/licorne-lightgreen.png" alt="Logo de licorne" />
           </h1>
         </div>
-        <div class="box-square box-img box-barrel-yellow an-header-barrel">
-          <img src="images/barrel-yellow.png" alt="Logo de licorne" />
-        </div>
         <div class="box-wide box-img an-header-hops">
           <img src="images/hops-green.png" alt="Logo de licorne" />
         </div>
         <div class="box-wide box-img an-header-bottle-green">
           <img src="images/bottle-label-green.png" alt="Logo de licorne" />
+        </div>
+        <div class="box-square box-img box-barrel-yellow an-header-barrel">
+          <img src="images/barrel-yellow.png" alt="Logo de licorne" />
         </div>
         <div class="box-square box-img an-header-malt">
           <img src="images/malt-yellow.png" alt="Logo de licorne" />
@@ -61,16 +61,73 @@
           <img src="images/brasserie-orange.png" alt="Logo de licorne" />
         </div>
         <div class="box-wide box-logo an-header-licorne-pink">
-          <div class="an-header-mask">
-            <h1>
-              <img src="images/licorne-pink.png" alt="Logo de licorne" />
-            </h1>
-          </div>
+          <h1>
+            <img src="images/licorne-pink.png" alt="Logo de licorne" />
+          </h1>
         </div>
         <div class="box-wide box-logo an-header-licorne-lightgreen-top">
           <h1>
             <img src="images/licorne-lightgreen.png" alt="Logo de licorne" />
           </h1>
+        </div>
+        <div class="box-square box-nav">
+          <div class="l-language-login">
+            <div class="radio-language">
+              <div>
+                <input
+                  type="radio"
+                  name="options-language"
+                  id="fr"
+                  value="fr"
+                />
+                <label for="fr"> FR </label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  name="options-language"
+                  id="de"
+                  value="de"
+                />
+                <label for="de"> DE </label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  name="options-language"
+                  id="en"
+                  value="en"
+                />
+                <label for="en"> EN </label>
+              </div>
+            </div>
+            <div class="l-icons">
+              <img src="images/login.png" alt="Login icon." />
+              <img src="images/shopping-cart.png" alt="Shopping cart icon." />
+            </div>
+          </div>
+          <nav>
+            <a href="#histoire">Notre histoire</a>
+            <a href="#brasserie">Notre brasserie</a>
+            <a href="#bieres">Nos bières</a>
+            <a href="#shop">Shop</a>
+            <a href="#">Points de vente</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </div>
+      </div>
+      <div class="l-section l-section-smaller">
+        <div class="box-wide box-img box-after-header-left">
+          <img
+            src="images/bubbles-orange-wide.png"
+            alt="Bubble illustration."
+          />
+        </div>
+        <div class="box-wide box-img box-after-header-right">
+          <img
+            src="images/bubbles-yellow-wide.png"
+            alt="Bubble illustration."
+          />
         </div>
       </div>
     </header>
@@ -80,7 +137,7 @@
           <div class="col-12">
             <div class="l-section l-histoire">
               <div class="box-long box-img box-histoire">
-                <h2>Notre histoire</h2>
+                <h2 id="histoire">Notre histoire</h2>
               </div>
               <div class="box-square box-estavayer">
                 <h3>Estavayer-Le-Lac</h3>
@@ -130,12 +187,20 @@
           </div>
         </div>
       </div>
+      <div class="l-section l-section-smaller">
+        <div class="box-wide box-img box-after-histoire-left">
+          <img src="images/bubbles-blue-wide.png" alt="Bubble illustration." />
+        </div>
+        <div class="box-wide box-img box-after-histoire-right">
+          <img src="images/bubbles-green-wide.png" alt="Bubble illustration." />
+        </div>
+      </div>
       <div class="container">
         <div class="row">
           <div class="col-12">
             <div class="l-section l-brasserie">
               <div class="box-wide box-brasserie">
-                <h2>La brasserie</h2>
+                <h2 id="brasserie">La brasserie</h2>
                 <p>
                   Dans une belle bâtisse médiévale, trois employés et Sylvain y
                   créent leur bière « licorne » rafraîchissante et gouleyante,
@@ -191,12 +256,26 @@
           </div>
         </div>
       </div>
+      <div class="l-section l-section-smaller">
+        <div class="box-wide box-img box-after-brasserie-left">
+          <img
+            src="images/bubbles-blue-xtrawide.png"
+            alt="Bubble illustration."
+          />
+        </div>
+        <div class="box-square box-img box-after-brasserie-right">
+          <img
+            src="images/bubbles-green-square.png"
+            alt="Bubble illustration."
+          />
+        </div>
+      </div>
       <div class="container">
         <div class="row">
           <div class="col-12">
             <div class="l-section l-section-small l-beers">
               <div class="box-square box-img box-beers">
-                <h2>Nos bières</h2>
+                <h2 id="bieres">Nos bières</h2>
               </div>
               <div class="content-beer box-wide box-blond">
                 <h3>Blonde Helles Blond</h3>
@@ -295,12 +374,26 @@
           </div>
         </div>
       </div>
+      <div class="l-section l-section-smaller">
+        <div class="box-square box-img box-after-bieres-left">
+          <img
+            src="images/bubbles-blue-square.png"
+            alt="Bubbles illustration"
+          />
+        </div>
+        <div class="box-wide box-img box-after-bieres-right">
+          <img
+            src="images/bubbles-pink-xtrawide.png"
+            alt="Bubbles illustration"
+          />
+        </div>
+      </div>
       <div class="container">
         <div class="row">
           <div class="col-12">
             <div class="l-section l-section-small l-shop">
               <div class="box-long box-img box-shop">
-                <h2>Shop</h2>
+                <h2 id="shop">Shop</h2>
               </div>
               <div class="box-long box-shop-blond shop-product">
                 <img
@@ -403,16 +496,22 @@
         </div>
       </div>
       <div class="l-section l-section-smaller">
+        <div class="box-wide box-img box-after-shop-left">
+          <img src="images/bubbles-green-wide.png" alt="Bubbles illustration" />
+        </div>
+        <div class="box-wide box-img box-after-shop-right">
+          <img
+            src="images/bubbles-orange-wide.png"
+            alt="Bubbles illustration"
+          />
+        </div>
+      </div>
+      <div class="l-section l-section-smaller">
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <div class="box-square box-newsletter-bottle">
-                <!-- <img
-                  src="images/bottle-pink.png"
-                  alt="Illustration of a pink beer bottle."
-                /> -->
-              </div>
-              <div class="box-wide box-button box-newsletter">
+              <div class="box-square box-newsletter-bottle"></div>
+              <div class="box-wide box-newsletter">
                 <div>
                   <h2>Newsletter</h2>
                   <p>
@@ -441,6 +540,22 @@
         </div>
       </div>
     </main>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-3"></div>
+          <div class="col-3"></div>
+          <div class="col-3 offset-3"></div>
+        </div>
+      </div>
+      <div class="l-section l-section-smaller">
+        <div class="footer-socials">
+          <img src="images/login.png" alt="TikTok logo" />
+          <img src="images/login.png" alt="Linkedin logo" />
+          <img src="images/login.png" alt="Instagram logo" />
+        </div>
+      </div>
+    </footer>
 
     <script src="js/main.js" type="module"></script>
   </body>

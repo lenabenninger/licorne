@@ -5,7 +5,7 @@
   width: 100vw;
   height: calc(75vw);
   overflow: hidden;
-  margin-bottom: calc(25vw);
+  // margin-bottom: calc(25vw);
 }
 
 .l-section-small {
@@ -14,4 +14,19 @@
 
 .l-section-smaller {
   height: calc(25vw);
+}
+
+.l-language-login {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.l-language-login img {
+  height: 30px;
+}
+
+.l-icons {
+  display: flex;
+  gap: 36px;
 }
