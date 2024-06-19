@@ -33,14 +33,3 @@
 .shop-product-quantity {
   @include text-small;
 }
-
-.box-newsletter-bottle {
-  background: $blue;
-}
-
-.box-newsletter {
-  color: $orange;
-  @include text-uppercase;
-  margin-left: 25%;
-  width: 75%;
-}

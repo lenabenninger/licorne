@@ -53,6 +53,12 @@
   height: 66.67%;
 }
 
+.box-logo {
+  display: flex;
+  justify-content: center;
+  padding: 73px;
+}
+
 .box-histoire {
   color: $darkgreen;
   background: $yellow;
@@ -203,4 +209,18 @@
   margin-left: 75%;
   background-image: url(../images/bottle-lightgreen.png);
   background-size: 100%;
+}
+
+.box-newsletter-bottle {
+  background: $blue;
+  background-image: url(../images/bottle-pink.png);
+  background-size: 100%;
+}
+
+.box-newsletter {
+  color: $orange;
+  background: $lightgreen;
+  @include text-uppercase;
+  margin-left: 25%;
+  width: 75%;
 }

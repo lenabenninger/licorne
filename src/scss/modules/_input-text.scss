@@ -1,0 +1,26 @@
+.input-text input {
+  background: $pink;
+  height: 53px;
+  padding: 10px;
+  border: none;
+  align-self: stretch;
+  width: 100%;
+}
+
+.input-text input:focus {
+  outline: none;
+}
+
+.input-text {
+  align-self: stretch;
+}
+
+.input-text ::placeholder {
+  @include text-uppercase;
+}
+
+.email {
+  display: flex;
+  gap: 25px;
+  width: 500px;
+}
