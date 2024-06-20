@@ -1,0 +1,47 @@
+.footer-contact p:last-of-type {
+  @include text-small;
+  margin-top: 96px;
+}
+
+.footer-legal {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 112px;
+}
+
+.footer-legal a,
+.footer-contact a {
+  transition: all 0.1s linear;
+}
+
+.footer-legal a:hover {
+  color: $pink;
+}
+
+.footer-socials {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 26px;
+}
+
+.footer-socials img {
+  height: 30px;
+  transition: all 0.2s linear;
+}
+
+.footer-socials img:hover {
+  transform: scale(1.2);
+}
+
+.footer-arrow a {
+  text-decoration: none;
+}
+
+.footer-arrow a:hover {
+  color: $pink;
+}
+
+.footer-arrow img {
+  height: 120px;
+}

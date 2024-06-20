@@ -6,10 +6,15 @@
   margin-bottom: 12px;
 }
 
+.radio-language label:hover {
+  color: $lightgreen;
+}
+
 .radio-language input {
   display: none;
 }
 
 .radio-language input:checked + label {
   text-decoration: underline 1px;
+  color: $lightgreen;
 }

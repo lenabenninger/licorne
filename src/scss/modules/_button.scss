@@ -8,4 +8,16 @@
   color: $pink;
   background: $blue;
   white-space: nowrap;
+  transition: all 0.2s linear;
+}
+
+.button:hover,
+.button-cart:hover {
+  background: $darkgreen;
+}
+
+.button-cart {
+  background: $blue;
+  padding: 10px;
+  transition: all 0.2s linear;
 }
